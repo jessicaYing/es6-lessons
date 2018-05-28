@@ -2,7 +2,9 @@
 import './css/common.less';
 import test from './test';
 import './const';
-console.log(test);
+import './scope';
+import './arrow-function';
+
 const App = function(){
   test();
 }
