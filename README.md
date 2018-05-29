@@ -12,7 +12,7 @@ const 声明的常量在声明时就需要被初始化。
 
 ## 3. Symbol
 
-Symbol 类型用于声明一个独一无二的值。
+Symbol 类型用于创建一个独一无二的值。
 
 ### 3.1 消除魔术字符串
 ```js
@@ -87,3 +87,7 @@ console.log(area1); // 10000
 var area2 = getArea(shapeType.rectangle, {width:100, height:200});
 console.log(area2); // 20000
 ```
+
+参考文献：
+[方应杭的知乎专栏——「每日一题」JS 中的 Symbol 是什么？](https://zhuanlan.zhihu.com/p/22652486?refer=study-fe)
+阮一峰 《ECMAScript 6 入门》
